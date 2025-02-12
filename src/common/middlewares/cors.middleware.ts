@@ -1,6 +1,5 @@
 import { Injectable, NestMiddleware } from '@nestjs/common';
 import { Request, Response, NextFunction } from 'express';
-import { decrypt } from 'dotenv';
 import * as CryptoJS from 'crypto-js';
 
 @Injectable()
