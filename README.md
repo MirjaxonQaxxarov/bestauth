@@ -1,31 +1,31 @@
 # BestAuth - Authentication Service
 
-BestAuth - bu NestJS frameworkida qurilgan zamonaviy autentifikatsiya xizmati. Bu loyiha foydalanuvchilarni ro'yxatdan o'tkazish, kirish va boshqarish uchun xavfsiz va kengaytiriladigan yechim taqdim etadi.
+BestAuth is a modern authentication service built with the NestJS framework. This project provides a secure and scalable solution for user registration, login, and management.
 
-## Texnologiyalar
+## Technologies
 
-- NestJS v10
-- TypeORM
-- MySQL
-- Express
-- TypeScript
-- Class Validator
-- Crypto-JS
+- NestJS v10  
+- TypeORM  
+- MySQL  
+- Express  
+- TypeScript  
+- Class Validator  
+- Crypto-JS  
 
-## O'rnatish
+## Installation
 
-1. Loyihani clone qiling:
+1. Clone the repository:  
 ```bash
 git clone https://github.com/MirjaxonQaxxarov/bestauth.git
 cd bestauth
 ```
 
-2. Kerakli paketlarni o'rnating:
+2. Install dependencies:  
 ```bash
 npm install
 ```
 
-3. `.env` faylini yarating va sozlamalarni kiriting:
+3. Create a `.env` file and configure the settings:  
 ```env
 PORT=3000
 DATABASE_HOST=localhost
@@ -35,47 +35,47 @@ DATABASE_PASSWORD=your_password
 DATABASE_NAME=your_database
 ```
 
-## Ishga tushirish
+## Running the Application
 
-Loyihani development rejimida ishga tushirish:
+To start the project in development mode:  
 ```bash
 npm run start:dev
 ```
 
-Production uchun build qilish va ishga tushirish:
+For production build and execution:  
 ```bash
 npm run build
 npm run start:prod
 ```
 
-## API Endpointlar
+## API Endpoints
 
-Loyiha ikkita asosiy API yo'nalishiga ega:
+The project provides two main API categories:
 
-### Front API
-Web ilovalar uchun API endpointlar
+### Front API  
+Endpoints designed for web applications.  
 
-### Mobile API
-Mobile ilovalar uchun maxsus API endpointlar
+### Mobile API  
+Dedicated API endpoints for mobile applications.  
 
-## Xavfsizlik
+## Security Features
 
-- Request Throttling - so'rovlar sonini cheklash
-- Class Validation - kiritilgan ma'lumotlarni tekshirish
-- Crypto-JS - ma'lumotlarni shifrlash
+- **Request Throttling** – Limits the number of requests to prevent abuse.  
+- **Class Validation** – Ensures input data is properly validated.  
+- **Crypto-JS** – Encrypts sensitive data for added security.  
 
 ## Testing
 
-Unit testlarni ishga tushirish:
+Run unit tests:  
 ```bash
 npm run test
 ```
 
-E2E testlarni ishga tushirish:
+Run end-to-end (E2E) tests:  
 ```bash
 npm run test:e2e
 ```
 
-## Litsenziya
+## License  
 
-[UNLICENSED]
+[UNLICENSED]  
