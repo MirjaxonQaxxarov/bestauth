@@ -16,7 +16,7 @@ BestAuth - bu NestJS frameworkida qurilgan zamonaviy autentifikatsiya xizmati. B
 
 1. Loyihani clone qiling:
 ```bash
-git clone <repository-url>
+git clone https://github.com/MirjaxonQaxxarov/bestauth.git
 cd bestauth
 ```
 
