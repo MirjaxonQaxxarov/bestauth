@@ -14,7 +14,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { UserInfo } from '../../../common/entities/user.entity';
 
-@Controller('mobile/auth')
+@Controller('api/auth')
 export class AuthController {
   constructor(
     @InjectRepository(UserInfo)

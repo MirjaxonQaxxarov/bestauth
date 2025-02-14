@@ -4,6 +4,7 @@ import * as dotenv from 'dotenv';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { MobileModule } from './mobileapi/mobile.module';
 import { FrontModule } from './front/front.module';
+import { ApiModule } from './api/api.module';
 
 dotenv.config();
 
@@ -21,6 +22,7 @@ dotenv.config();
     }),
     FrontModule,
     MobileModule,
+    ApiModule,
   ],
   providers: [],
 })
